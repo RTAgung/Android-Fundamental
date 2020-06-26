@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Activity-Aplikasi Sederhana</string>
+    <string name="tinggi">Tinggi</string>
+    <string name="panjang">Panjang</string>
+    <string name="lebar">Lebar</string>
+    <string name="hitung">Hitung</string>
+    <string name="hasil">Hasil</string>
+</resources>
