@@ -42,13 +42,13 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
     }
 
     override fun onClick(v: View?) {
-        val width = edtWidth.text.toString().trim()
         val length = edtLength.text.toString().trim()
+        val width = edtWidth.text.toString().trim()
         val height = edtHeight.text.toString().trim()
 
         when {
-            width.isEmpty() -> edtWidth.error = "Field ini tidak boleh kosong"
             length.isEmpty() -> edtLength.error = "Field ini tidak boleh kosong"
+            width.isEmpty() -> edtWidth.error = "Field ini tidak boleh kosong"
             height.isEmpty() -> edtHeight.error = "Field ini tidak boleh kosong"
             else -> {
                 val l = length.toDouble()
